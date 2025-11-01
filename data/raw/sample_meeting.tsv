@@ -1,0 +1,6 @@
+speaker	start_time	end_time	text
+PM	0.0	10.0	We need to finalise the scope document for the smart meeting assistant this week.
+UX	10.0	20.0	I will prepare updated wireframes and share them in the next week sync.
+DATA	20.0	30.0	Let's pull the historical meeting analytics dataset for comparison.
+ENG	30.0	40.0	We should prototype the summariser integration and run QA.
+PM	40.0	50.0	Please send a stakeholder update email by Friday.
