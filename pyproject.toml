@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resource-recommender"
+version = "0.1.0"
+description = "AMI Corpus transcript processor and resource recommender"
+authors = [{name = "Akshat-style assistant"}]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+resource-recommender = "src.resource_recommender.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
